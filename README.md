@@ -25,10 +25,7 @@ The project is intentionally practical: a Next.js frontend on Vercel, a .NET 8 A
 
 | Service | Platform | URL |
 | :--- | :--- | :--- |
-| Frontend | Vercel | [https://task-management-system-frontend.vercel.app](https://task-management-system-frontend.vercel.app) |
-| Backend API | Render | [https://task-management-system-backend-api.onrender.com](https://task-management-system-backend-api.onrender.com) |
-| API Docs | Render Swagger | [https://task-management-system-backend-api.onrender.com/swagger](https://task-management-system-backend-api.onrender.com/swagger) |
-| Database | Neon PostgreSQL | Managed cloud Postgres |
+| Frontend | Vercel | [https://nintro-task-management.vercel.app/](https://nintro-task-management.vercel.app/) |
 
 ## Demo Login
 
@@ -179,7 +176,7 @@ Render service environment variables:
 ```env
 ASPNETCORE_ENVIRONMENT=Production
 AutoMigrate=true
-ALLOWED_ORIGINS=https://task-management-system-frontend.vercel.app
+ALLOWED_ORIGINS=https://nintro-task-management.vercel.app
 
 ConnectionStrings__DefaultConnection=Host=YOUR_NEON_HOST;Database=YOUR_DB;Username=YOUR_USER;Password=YOUR_PASSWORD;SSL Mode=VerifyFull;Channel Binding=Require;
 
